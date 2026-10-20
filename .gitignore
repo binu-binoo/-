@@ -1,0 +1,7 @@
+# Keep any future internal-only source materials out of commits.
+data/internal/
+
+# Runtime credentials, sessions, private state, and generated Python outputs
+.local/
+__pycache__/
+*.pyc
